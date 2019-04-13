@@ -1,0 +1,38 @@
+{
+  "name": "fanhuijie",
+  "version": "1.0.0",
+  "description": "resful api",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm i --prefix fanhui",
+    "client": "npm start --prefix fanhui",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "blueimp-md5": "^2.10.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http-proxy-middleware": "^0.19.1",
+    "js-base64": "^2.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "request": "^2.88.0",
+    "svg-captcha": "^1.3.12"
+  },
+  "devDependencies": {
+    "superagent": "^5.0.2"
+  }
+}
